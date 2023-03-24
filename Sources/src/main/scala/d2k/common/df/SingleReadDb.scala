@@ -1,0 +1,12 @@
+package d2k.common.df
+
+import spark.common.DbInfo
+import d2k.common.InputArgs
+import spark.common.DbCtl
+import d2k.common.ResourceInfo
+
+trait SingleReadDb extends ReadDb {
+  lazy val readTableName: String = componentId
+
+  def readDb(implicit inArgs: InputArgs) = readDbSingle(readTableName)
+}

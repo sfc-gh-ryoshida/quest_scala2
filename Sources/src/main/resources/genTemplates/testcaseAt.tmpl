@@ -1,0 +1,17 @@
+package d2k.df.component
+
+import org.scalatest.WordSpec
+import org.scalatest.MustMatchers
+import org.scalatest.BeforeAndAfter
+
+import d2k.app.test.common._
+
+class %%APP_NAME%%Test extends WordSpec with MustMatchers with BeforeAndAfter with D2kTest {
+  val app = %%APP_NAME%%
+  implicit val inArgs = TestArgs(projectId = "%%PROJECT_ID%%").toInputArgs
+  AT { x =>
+%%READ_DATA%%
+  } { x =>
+%%CHECK_DATA%%
+  }
+}
