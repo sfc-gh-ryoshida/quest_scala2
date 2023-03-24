@@ -1,0 +1,28 @@
+package d2k.df.component
+
+import d2k.common.InputArgs
+import d2k.common.SparkApp
+import d2k.common.SparkApp.implicits._
+import d2k.common.df._
+import d2k.common.df.executor._
+import spark.common._
+import SparkContexts.context.implicits._
+import DfCtl._
+import DfCtl.implicits._
+
+import java.math.{ BigDecimal => jBigDecimal }
+
+import org.apache.spark.sql.DataFrame
+import org.apache.spark.sql.Column
+import org.apache.spark.sql.functions._
+
+/**
+ * %%appDesc%%
+ */
+object %%appId%% extends SparkApp {
+  def exec(implicit inArgs: InputArgs) = {
+    %%appFlow%%
+  }
+  
+%%components%%
+}

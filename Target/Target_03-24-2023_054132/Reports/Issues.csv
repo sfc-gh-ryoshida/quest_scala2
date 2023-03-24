@@ -1,0 +1,52 @@
+Code,Description,Category,NodeType,FileId,ProjectId,Line,Column
+SPRKSCL1001,"This code section has parsing errors, so it was commented out",ParsingError, Mobilize.Scala.AST.SclSource,src/main/scala/d2k/appdefdoc/gen/src/ConvertTemplateDefine.scala,Sources,0,0
+SPRKSCL1001,"This code section has parsing errors, so it was commented out",ParsingError, Mobilize.Scala.AST.SclSource,src/main/scala/d2k/appdefdoc/gen/src/ItemReplace.scala,Sources,0,0
+SPRKSCL1001,"This code section has parsing errors, so it was commented out",ParsingError, Mobilize.Scala.AST.SclSource,src/main/scala/d2k/appdefdoc/parser/ComponentDefParser.scala,Sources,0,0
+SPRKSCL1001,"This code section has parsing errors, so it was commented out",ParsingError, Mobilize.Scala.AST.SclSource,src/main/scala/d2k/common/file/output/VariableFile.scala,Sources,0,0
+SPRKSCL1001,"This code section has parsing errors, so it was commented out",ParsingError, Mobilize.Scala.AST.SclSource,src/main/scala/d2k/common/df/flow/OneInToMapOutForDf.scala,Sources,0,0
+SPRKSCL1142,org.apache.spark.sql.types.DataType is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/DbCtl.scala,Sources,7,8
+SPRKSCL1142,org.apache.spark.sql.jdbc.JdbcType is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/DbCtl.scala,Sources,8,8
+SPRKSCL1142,org.apache.spark.sql.jdbc.JdbcDialects is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/DbCtl.scala,Sources,11,8
+SPRKSCL1142,org.apache.spark.sql.jdbc.JdbcDialect is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/DbCtl.scala,Sources,12,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/DbCtl.scala,Sources,13,8
+SPRKSCL1142,org.apache.spark.sql.sources.Filter is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/DbCtl.scala,Sources,19,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JDBCOptions is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/DbCtl.scala,Sources,21,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JdbcOptionsInWrite is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/DbCtl.scala,Sources,22,8
+SPRKSCL1142,org.apache.spark.sql.types.StructField is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/d2k/common/fileConv/Converter.scala,Sources,4,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/org/apache/spark/sql/JdbcCtl.scala,Sources,7,8
+SPRKSCL1142,org.apache.spark.sql.types.StructField is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/org/apache/spark/sql/JdbcCtl.scala,Sources,9,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprUnderscore,src/main/scala/org/apache/spark/sql/JdbcCtl.scala,Sources,12,8
+SPRKSCL1142,org.apache.spark.sql.sources.Filter is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/org/apache/spark/sql/JdbcCtl.scala,Sources,13,8
+SPRKSCL1142,org.apache.spark.sql.catalyst.InternalRow is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/org/apache/spark/sql/JdbcCtl.scala,Sources,15,8
+SPRKSCL1142,org.apache.spark.sql.types.DecimalType is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/org/apache/spark/sql/JdbcCtl.scala,Sources,16,8
+SPRKSCL1142,org.apache.spark.sql.types.TimestampType is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/org/apache/spark/sql/JdbcCtl.scala,Sources,17,8
+SPRKSCL1142,org.apache.spark.Partition is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/org/apache/spark/sql/JdbcCtl.scala,Sources,18,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/d2k/common/InputArgs.scala,Sources,9,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JDBCOptions is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/d2k/common/InputArgs.scala,Sources,13,8
+SPRKSCL1142,org.apache.spark.sql.catalyst.util.CaseInsensitiveMap is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/d2k/common/InputArgs.scala,Sources,14,8
+SPRKSCL1142,org.apache.spark.SparkContext is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/d2k/common/fileConv/TextConverter.scala,Sources,16,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,7,8
+SPRKSCL1142,org.apache.spark.sql.types.StructField is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,9,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprUnderscore,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,12,8
+SPRKSCL1142,org.apache.spark.sql.sources.Filter is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,13,8
+SPRKSCL1142,org.apache.spark.sql.catalyst.InternalRow is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,15,8
+SPRKSCL1142,org.apache.spark.sql.types.DecimalType is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,16,8
+SPRKSCL1142,org.apache.spark.sql.types.TimestampType is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,17,8
+SPRKSCL1142,org.apache.spark.sql.sources is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprUnderscore,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,18,8
+SPRKSCL1142,org.apache.spark.sql.JdbcCtlTest.result is not supported,ConversionError, Mobilize.Scala.AST.SclPath1Id,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,27,7
+SPRKSCL1142,org.apache.spark.sql.JdbcCtlTest.result is not supported,ConversionError, Mobilize.Scala.AST.SclPath1Id,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,28,7
+SPRKSCL1142,org.apache.spark.sql.JdbcCtlTest.result is not supported,ConversionError, Mobilize.Scala.AST.SclPath1Id,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,29,19
+SPRKSCL1142,org.apache.spark.sql.JdbcCtlTest.result is not supported,ConversionError, Mobilize.Scala.AST.SclPath1Id,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,43,7
+SPRKSCL1142,org.apache.spark.sql.JdbcCtlTest.result is not supported,ConversionError, Mobilize.Scala.AST.SclPath1Id,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,44,7
+SPRKSCL1142,org.apache.spark.sql.JdbcCtlTest.result is not supported,ConversionError, Mobilize.Scala.AST.SclPath1Id,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,45,19
+SPRKSCL1142,org.apache.spark.sql.JdbcCtlTest.result is not supported,ConversionError, Mobilize.Scala.AST.SclPath1Id,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,60,7
+SPRKSCL1142,org.apache.spark.sql.JdbcCtlTest.result is not supported,ConversionError, Mobilize.Scala.AST.SclPath1Id,src/test/scala/org/apache/spark/sql/JdbcCtlTest.scala,Sources,72,7
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/spark/common/DbCtlTest.scala,Sources,17,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/d2k/common/InputArgsTest.scala,Sources,6,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/spark/common/DbCtlWithHintTest.scala,Sources,17,8
+SPRKSCL1142,org.apache.spark.sql.types.LongType is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/d2k/common/df/template/sh/CommissionBaseChannelSelectorTmpl.scala,Sources,19,8
+SPRKSCL1142,org.apache.spark.SparkConf is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/SparkContexts.scala,Sources,3,8
+SPRKSCL1142,org.apache.spark.SparkContext is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/SparkContexts.scala,Sources,4,8
+SPRKSCL1142,org.apache.spark.sql.hive.HiveContext is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/main/scala/spark/common/SparkContexts.scala,Sources,5,8
+SPRKSCL1142,org.apache.spark.sql.expressions.UserDefinedFunction is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/d2k/common/UdfsTest.scala,Sources,18,8
+SPRKSCL1142,org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils is not supported,ConversionError, Mobilize.Scala.AST.SclImportExprId,src/test/scala/spark/common/LargeInsertTest.scala,Sources,17,8
